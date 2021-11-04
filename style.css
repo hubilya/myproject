@@ -29,7 +29,7 @@ padding-top:20px;
 
 .links{
     
-    width:260px;
+    width:250px;
     padding-top:28px;
     
 }
@@ -50,6 +50,7 @@ padding-top:20px;
   bottom:-3px;
   right: 0px;
 }
+
 h1{
  position:absolute;
     margin-left:40px;
@@ -58,44 +59,113 @@ h1{
 font-family: Jura;
 font-style: normal;
 font-weight: normal;
-font-size: 72px;
+font-size: 6vw;
+color: #FFFFFF;
+}
+h2{
+ position:absolute;
+    margin-left:40px;
+    margin-top:9%;
+    margin-bottom:0px;
+font-family: Jura;
+font-style: normal;
+font-weight: normal;
+font-size: 4vw;
+color: #FFFFFF;
+}
+h3{
+    position:absolute;
+    width: 30%;
+height: 20%;
+left: 45px;
+top: 348px;
+    font-family: Jura;
+font-style: normal;
+font-weight: normal;
+font-size: 2vw;
+line-height: 2.6vw;
+
 color: #FFFFFF;
 }
 .buttons{
-    position:absolute;
-    top:210px;
+   position:absolute;
+    top:200px;
     right:35px;
-    display:inline-block; 
-    
+    display:block; 
+    align-content: center;
 }
 button{
-    align-content: center;
+    
     cursor:pointer;
     margin:3vw;
     border:none;
-    width: 26vw;
-    height: 33vw;
+    width: 25vw;
+    height: 32vw;
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.21) 0%, rgba(255, 255, 255, 0) 100%);
 mix-blend-mode: normal;
-backdrop-filter: blur(5px);
+backdrop-filter: blur(5px); 
+    
 }
 @media (max-width:480px){
-    button{
-        width: 33vw;
-    height: 40vw;
-    }
+    button{width: 33vw;
+    height: 40vw;}
 }
+
 rrect{
 
     position:absolute;
     top:0px;
     right:0px;
+    background-repeat: no-repeat;
+background-position: center;
     border:none;
-    width: 26vw;
+    width: 25vw;
+    height: 32vw;
+    background-image: url(images/samu.png);
+mix-blend-mode:lighten;
+backdrop-filter: blur(15px);
+    background-repeat: no-repeat;
+
+}
+@media (max-width:480px){
+    
+    rrect{width: 33vw;
+    height: 40vw;
+    }
+}
+rrect1{
+
+    position:absolute;
+    top:0px;
+    right:0px;
+    background-repeat: no-repeat;
+background-position: center;
+    border:none;
+    width: 25vw;
+    height: 32vw;
+    background-image: url(images/kat.png);
+mix-blend-mode:lighten;
+backdrop-filter: blur(15px);
+    background-repeat: no-repeat;
+
+}
+@media (max-width:480px){
+    
+    rrect1{width: 33vw;
+    height: 40vw;
+    }
+}
+tect{
+
+    position:absolute;
+    top:0px;
+    right:0px;
+    border:none;
+    width: 25vw;
     height: 7vw;
     background: #EF0D21;
 mix-blend-mode:lighten;
-backdrop-filter: blur(15px);
+backdrop-filter: blur(100px);
     
     font-family: Jura;
 font-style: normal;
@@ -106,9 +176,24 @@ letter-spacing: 0.3em;
 color: #000000;
 }
 @media (max-width:480px){
-    rrect{
+    tect{
         
         width: 33vw;
     height: 7vw;
     }
+}
+
+h4{
+    position: absolute;
+left: 20px;
+
+bottom: 0px;
+
+font-family: Jura;
+font-style: normal;
+font-weight: normal;
+font-size: 2vw;
+line-height: 28px;
+
+color: #FFFFFF;
 }
