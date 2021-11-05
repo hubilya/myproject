@@ -47,7 +47,7 @@ padding-top:20px;
 
 .fon{
   position:absolute;
-  bottom:-3px;
+  bottom:0px;
   right: 0px;
 }
 
@@ -133,6 +133,10 @@ backdrop-filter: blur(15px);
     height: 40vw;
     }
 }
+rrect:hover{
+    mix-blend-mode:lighten;
+backdrop-filter: blur(200px);
+}
 rrect1{
 
     position:absolute;
@@ -154,6 +158,10 @@ backdrop-filter: blur(15px);
     rrect1{width: 33vw;
     height: 40vw;
     }
+}
+rrect1:hover{
+    mix-blend-mode:lighten;
+backdrop-filter: blur(200px);
 }
 tect{
 
