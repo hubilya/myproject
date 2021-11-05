@@ -106,7 +106,7 @@ mix-blend-mode: normal;
 backdrop-filter: blur(5px); 
     
 }
-@media (max-width:480px){
+@media (max-width:320px){
     button{width: 33vw;
     height: 40vw;}
 }
@@ -127,7 +127,7 @@ backdrop-filter: blur(15px);
     background-repeat: no-repeat;
 
 }
-@media (max-width:480px){
+@media (max-width:320px){
     
     rrect{width: 33vw;
     height: 40vw;
@@ -153,7 +153,7 @@ backdrop-filter: blur(15px);
     background-repeat: no-repeat;
 
 }
-@media (max-width:480px){
+@media (max-width:320px){
     
     rrect1{width: 33vw;
     height: 40vw;
@@ -183,7 +183,7 @@ line-height: 7vw;
 letter-spacing: 0.3em;
 color: #000000;
 }
-@media (max-width:480px){
+@media (max-width:320px){
     tect{
         
         width: 33vw;
